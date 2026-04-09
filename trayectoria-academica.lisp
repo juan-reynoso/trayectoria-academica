@@ -188,7 +188,7 @@
 
 
 
-
+(push (create-regex-dispatcher "^/$" 'layout) *dispatch-table*)
 
 (define-easy-handler (index-handler :uri "/index.html")
     ()
